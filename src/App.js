@@ -45,7 +45,7 @@ function App() {
   }, [allAirports]);
 
   function findFlights() {
-    fetch(flightsFromTo, bearer)
+    fetch(flightsFromTo(departureAirport, arrivalAirport), bearer)
       .then((response) => response.json())
       .then((data) => {
         if (data.data && data.data.length > 0) {

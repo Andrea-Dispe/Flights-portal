@@ -4,7 +4,7 @@ This project was made to practice with React and fetching API data.
 
 The User has 2 ways to select the departure and arrival airports: through the text fields on the top or by clicking the corresponding tag under the text fields.
 
-
+![My flights portal app presentation gif](presentation.gif)
 
 #### Tech stack:
 
@@ -15,4 +15,4 @@ The User has 2 ways to select the departure and arrival airports: through the te
 
 #### Note 24/09/2021
 
-Today I noticed there is a new bug with the tags  that do not work properly when clicked. Will fix it soon. 
+Today I noticed there is a new bug with the tags  that do not work properly when clicked. Will fix it soon.
